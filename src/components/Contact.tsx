@@ -10,7 +10,7 @@ export function Contact() {
     {
       icon: MapPin,
       title: "Visit Us",
-      content: "Mount Litera zee School, Tikamgarh, Madhya Pradesh, India - 472001"
+      content: "Mount Litera zee School,kundeshwar Road,near life care hospital, Tikamgarh, Madhya Pradesh, India - 472001"
     },
     {
       icon: Phone,
