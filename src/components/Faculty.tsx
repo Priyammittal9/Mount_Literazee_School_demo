@@ -9,7 +9,7 @@ export function Faculty() {
       position: "Principal",
       subject: "Educational Leadership",
       experience: "20+ Years",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b25bd15b?w=300&h=300&fit=crop&crop=faces",
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=faces",
       email: "principal@mountliterazee.edu",
       phone: "+91 98765 43210"
     },
@@ -18,7 +18,7 @@ export function Faculty() {
       position: "Vice Principal",
       subject: "Mathematics & Physics",
       experience: "15+ Years",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b25bd15b?w=300&h=300&fit=crop&crop=faces",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=faces",
       email: "rajesh@mountliterazee.edu",
       phone: "+91 98765 43211"
     },
