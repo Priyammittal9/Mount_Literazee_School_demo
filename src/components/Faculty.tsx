@@ -18,7 +18,7 @@ export function Faculty() {
       position: "Vice Principal",
       subject: "Mathematics & Physics",
       experience: "15+ Years",
-      image: "/lovable-uploads/66ca072c-3502-497c-bb6b-8634fe742967.png",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b25bd15b?w=300&h=300&fit=crop&crop=faces",
       email: "rajesh@mountliterazee.edu",
       phone: "+91 98765 43211"
     },
