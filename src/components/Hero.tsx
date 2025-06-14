@@ -1,0 +1,71 @@
+
+import { Button } from '@/components/ui/button';
+import { ArrowRight, BookOpen, Users, Award } from 'lucide-react';
+
+export function Hero() {
+  return (
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-green-50 pt-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+                Nurturing Young
+                <span className="text-primary block">Minds to Excel</span>
+              </h1>
+              <p className="text-xl text-gray-600 leading-relaxed">
+                At Mount Literazee School Tikamgarh, we provide quality education that shapes bright futures and builds strong character in every student.
+              </p>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 group">
+                Apply for Admission
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
+                Take Virtual Tour
+              </Button>
+            </div>
+
+            <div className="grid grid-cols-3 gap-6 pt-8">
+              <div className="text-center">
+                <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <BookOpen className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-2xl font-bold text-gray-900">500+</div>
+                <div className="text-sm text-gray-600">Students</div>
+              </div>
+              <div className="text-center">
+                <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <Users className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-2xl font-bold text-gray-900">50+</div>
+                <div className="text-sm text-gray-600">Teachers</div>
+              </div>
+              <div className="text-center">
+                <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <Award className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-2xl font-bold text-gray-900">15+</div>
+                <div className="text-sm text-gray-600">Years</div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="relative">
+            <div className="relative z-10">
+              <img
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop"
+                alt="Students in classroom"
+                className="rounded-2xl shadow-2xl w-full h-96 object-cover"
+              />
+            </div>
+            <div className="absolute -top-4 -right-4 w-72 h-72 bg-primary/20 rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-4 -left-4 w-72 h-72 bg-green-400/20 rounded-full blur-3xl"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
