@@ -10,17 +10,17 @@ export function Contact() {
     {
       icon: MapPin,
       title: "Visit Us",
-      content: "Mount Literazee School, Tikamgarh, Madhya Pradesh, India - 472001"
+      content: "Mount Litera zee School, Tikamgarh, Madhya Pradesh, India - 472001"
     },
     {
       icon: Phone,
       title: "Call Us",
-      content: "+91 98765 43210 / +91 98765 43211"
+      content: "+91 90098 25058 / +91 99933 81700 / +91 97533 57555"
     },
     {
       icon: Mail,
       title: "Email Us",
-      content: "info@mountliterazee.edu / admission@mountliterazee.edu"
+      content: "srupadhyaymemorial@gmail.com / mountliterazeeschool773@gmail.com"
     },
     {
       icon: Clock,

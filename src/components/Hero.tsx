@@ -56,7 +56,7 @@ export function Hero() {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop"
+                src="Images/hero/school.png"
                 alt="Students in classroom"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />

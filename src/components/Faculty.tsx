@@ -1,45 +1,33 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import { Mail, Phone } from 'lucide-react';
 
 export function Faculty() {
   const teachers = [
     {
-      name: "Dr. Priya Sharma",
-      position: "Principal",
-      subject: "Educational Leadership",
+      name: "DR.S R SUMIT UPADHYAY",
+      position: "Chairman",
       experience: "20+ Years",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=faces",
-      email: "principal@mountliterazee.edu",
-      phone: "+91 98765 43210"
+      image: "/Images/faculty/img1.jpg",
+      email: "srupadhyaymamorial@gmail.com ",
+      phone: "+91 90098 25703"
     },
     {
-      name: "Mr. Rajesh Kumar",
-      position: "Vice Principal",
-      subject: "Mathematics & Physics",
+      name: "ADV PREETI UPADHYAY ",
+      position: "Chairman",
       experience: "15+ Years",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=faces",
-      email: "rajesh@mountliterazee.edu",
-      phone: "+91 98765 43211"
+      image: "/Images/faculty/img2.jpg",
+      email: " preetiupadhyay2008@gmail.com ",
+      phone: "+91 97533 57555"
     },
     {
-      name: "Ms. Sunita Verma",
-      position: "Head Teacher",
-      subject: "English & Literature",
+      name: "SHILPI OJHA VISHWAKARMA ",
+      position: "Director ",
       experience: "12+ Years",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=faces",
-      email: "sunita@mountliterazee.edu",
-      phone: "+91 98765 43212"
+      image: "/user.avif",
+      email: "ShilpiVishwakarma12345@gmail.com",
+      phone: "+91 83196 03391"
     },
-    {
-      name: "Mr. Amit Patel",
-      position: "Science Teacher",
-      subject: "Chemistry & Biology",
-      experience: "10+ Years",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=faces",
-      email: "amit@mountliterazee.edu",
-      phone: "+91 98765 43213"
-    }
+   
   ];
 
   return (
@@ -54,9 +42,12 @@ export function Faculty() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex justify-center flex-wrap gap-8">
           {teachers.map((teacher, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
+            <Card
+              key={index}
+              className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden w-80"
+            >
               <CardContent className="p-6 text-center">
                 <div className="relative mb-6 overflow-hidden rounded-full mx-auto w-24 h-24">
                   <img

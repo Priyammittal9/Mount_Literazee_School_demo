@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -21,10 +20,13 @@ export function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-primary">Mount Literazee School</h1>
+              <div className="logo">
+                <img src="logo.jpg" alt="Zee School Logo" className="h-12 w-auto m-0 p-0" />
+                {/* <h1 class="ml-2 text-2xl font-bold">Zee School</h1>  <!-- Remove if only image is needed --> */}
+              </div>
             </div>
           </div>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
