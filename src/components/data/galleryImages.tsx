@@ -50,5 +50,4 @@ export const galleryImages = [
   { src: "/Images/gallery/img49.jpg" },
   { src: "/Images/gallery/img50.jpg" },
   { src: "/Images/gallery/img51.jpg" },
-  { src: "/Images/gallery/img52.jpg" },
 ];
