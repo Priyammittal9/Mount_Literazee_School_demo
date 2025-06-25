@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
-import { toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import { Button } from "@/components/ui/button";
 import { popForm } from "@/http/api";
 
@@ -184,6 +184,7 @@ const EnquiryModal = ({ btnTxt }: PopUpProps) => {
               </div>
             </form>
           </div>
+          <ToastContainer/>
         </div>
       )}
     </>
