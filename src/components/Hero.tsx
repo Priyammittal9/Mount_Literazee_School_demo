@@ -27,7 +27,7 @@ export function Hero() {
               <h1
                 className="font-bold text-gray-900 leading-tight"
                 style={{
-                  fontSize: "5vw",
+                  fontSize: "4.5vw",
                   lineHeight: "1.1",
                 }}
               >
