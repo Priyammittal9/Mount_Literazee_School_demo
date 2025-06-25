@@ -1,25 +1,10 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import {
-  Dialog,
-  DialogClose,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-import { ArrowRight, BookOpen, Users, Award } from "lucide-react";
-import PopUp from "./PopUp";
+
+import { Button } from '@/components/ui/button';
+import { ArrowRight, BookOpen, Users, Award } from 'lucide-react';
 
 export function Hero() {
   return (
-    <section
-      id="home"
-      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-green-50 pt-16"
-    >
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-green-50 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -29,26 +14,21 @@ export function Hero() {
                 <span className="text-primary block">Minds to Excel</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                At Mount Literazee School Tikamgarh, we provide quality
-                education that shapes bright futures and builds strong character
-                in every student.
+                At Mount Literazee School Tikamgarh, we provide quality education that shapes bright futures and builds strong character in every student.
               </p>
             </div>
-
+            
             <div className="flex flex-col sm:flex-row gap-4">
-              {/* add pop */}
-              <PopUp/>
-
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-white"
-              >
+              <Button size="lg" className="bg-primary hover:bg-primary/90 group">
+                Apply for Admission
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
                 Take Virtual Tour
               </Button>
             </div>
 
-            {/* <div className="grid grid-cols-3 gap-6 pt-8">
+            <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
                 <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
                   <BookOpen className="h-6 w-6 text-primary" />
@@ -70,9 +50,9 @@ export function Hero() {
                 <div className="text-2xl font-bold text-gray-900">15+</div>
                 <div className="text-sm text-gray-600">Years</div>
               </div>
-            </div> */}
+            </div>
           </div>
-
+          
           <div className="relative">
             <div className="relative z-10">
               <img
