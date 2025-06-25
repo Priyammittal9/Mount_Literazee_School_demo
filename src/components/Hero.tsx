@@ -13,6 +13,9 @@ import {
 } from "@/components/ui/dialog";
 import { ArrowRight, BookOpen, Users, Award } from "lucide-react";
 import PopUp from "./PopUp";
+import EnquiryModal from "./EnquiryModal";
+
+
 
 export function Hero() {
   return (
@@ -37,8 +40,8 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               {/* add pop */}
-              <PopUp/>
-
+              {/* <PopUp btnTxt="Apply for Admission"/> */}
+              <EnquiryModal btnTxt="Apply for Admission"/>
               <Button
                 size="lg"
                 variant="outline"
