@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import EnquiryModal from './EnquiryModal';
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,9 +39,10 @@ export function Navigation() {
                 {item.name}
               </a>
             ))}
-            <Button className="bg-primary hover:bg-primary/90">
+            {/* <Button className="bg-primary hover:bg-primary/90">
               Admission
-            </Button>
+            </Button> */}
+            <EnquiryModal btnTxt=" Admission"/>
             <Button
               className="ml-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
             >
