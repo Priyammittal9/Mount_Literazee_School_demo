@@ -27,9 +27,23 @@ export function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-                Nurturing Young
-                <span className="text-primary block">Minds to Excel</span>
+              <h1
+                className="font-bold text-gray-900 leading-tight"
+                style={{
+                  fontSize: "4.5vw",
+                  lineHeight: "1.1",
+                }}
+              >
+                Mount Litera Zee School K12, Tikamgarh MP
+                <style>
+                  {`
+                    @media (max-width: 640px) {
+                      #home h1 {
+                        font-size: 28px !important;
+                      }
+                    }
+                  `}
+                </style>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 At Mount Literazee School Tikamgarh, we provide quality
@@ -40,15 +54,21 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               {/* add pop */}
+<<<<<<< HEAD
               {/* <PopUp btnTxt="Apply for Admission"/> */}
               <EnquiryModal btnTxt="Apply for Admission"/>
               <Button
+=======
+              <PopUp/>
+
+              {/* <Button
+>>>>>>> 0abd8685fdfe324f7a543f3e04642ae03cf28e8e
                 size="lg"
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-white"
               >
                 Take Virtual Tour
-              </Button>
+              </Button> */}
             </div>
 
             {/* <div className="grid grid-cols-3 gap-6 pt-8">
