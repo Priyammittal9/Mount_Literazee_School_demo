@@ -54,21 +54,21 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               {/* add pop */}
-<<<<<<< HEAD
+
               {/* <PopUp btnTxt="Apply for Admission"/> */}
               <EnquiryModal btnTxt="Apply for Admission"/>
-              <Button
-=======
-              <PopUp/>
+              {/* <Button */}
 
-              {/* <Button
->>>>>>> 0abd8685fdfe324f7a543f3e04642ae03cf28e8e
+              {/* <PopUp btnTxt={""}/> */}
+
+              <Button
+
                 size="lg"
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-white"
               >
                 Take Virtual Tour
-              </Button> */}
+              </Button>
             </div>
 
             {/* <div className="grid grid-cols-3 gap-6 pt-8">
