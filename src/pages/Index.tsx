@@ -7,7 +7,7 @@ import { Faculty } from '@/components/Faculty';
 import { Stats } from '@/components/Stats';
 import { Testimonials } from '@/components/Testimonials';
 import { Contact } from '@/components/Contact';
-import { Footer } from '@/components/Footer';
+import Footer from '@/components/Footer';
 import { Navigation } from '@/components/Navigation';
 
 const Index = () => {
@@ -19,7 +19,7 @@ const Index = () => {
       <Certificate />
       <Gallery />
       <Faculty />
-      <Stats />
+      {/* <Stats /> */}
       <Testimonials />
       <Contact />
       <Footer />

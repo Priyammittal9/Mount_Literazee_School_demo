@@ -30,10 +30,13 @@ export function About() {
                 About Mount Literazee School
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Established with a vision to provide quality education in Tikamgarh, Mount Literazee School has been a beacon of learning excellence for over 15 years.
+               Mount Litera Zee School Tikamgarh is founded and managed by Dr. S R SUMIT UPADHYAY with Zee Learn Ltd as the alliance partner.
+
               </p>
               <p className="text-gray-600 leading-relaxed">
-                We believe in nurturing young minds through innovative teaching methods, state-of-the-art facilities, and a curriculum that prepares students for the challenges of tomorrow.
+Mount Litera Zee School is a premier chain of K-12 schools in India, dedicated to delivering high-quality education and fostering holistic development. It is a part of Zee Learn Limited, one of India's most innovative educational organisations.</p>
+              <p className="text-gray-600 leading-relaxed">
+                The school emphasises experiential learning and ensures global readiness through its advanced infrastructure. It follows best practices such as STREAM integration, competency-based assessments, inclusive education, technology-enabled learning, and life-skills development, creating a strong foundation for future leaders.
               </p>
             </div>
 

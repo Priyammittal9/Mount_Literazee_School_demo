@@ -41,6 +41,12 @@ export function Navigation() {
             <Button className="bg-primary hover:bg-primary/90">
               Admission
             </Button>
+            <Button
+              className="ml-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
+            >
+              Login
+            </Button>
+            
           </div>
 
           {/* Mobile Menu Button */}
@@ -72,6 +78,12 @@ export function Navigation() {
                 <Button className="w-full bg-primary hover:bg-primary/90">
                   Admission
                 </Button>
+                <Button
+                  className="w-full mt-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
+                >
+                  Login
+                </Button>
+               
               </div>
             </div>
           </div>
