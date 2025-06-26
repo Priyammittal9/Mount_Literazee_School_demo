@@ -66,7 +66,7 @@ export function Contact() {
                 Interested in enrolling your child? Contact our admission office for detailed information about the application process, requirements, and available seats.
               </p>
               <Button className="bg-primary hover:bg-primary/90">
-                Download Admission Form
+                Admission
               </Button>
             </div>
           </div>

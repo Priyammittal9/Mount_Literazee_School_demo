@@ -7,21 +7,21 @@ export function Testimonials() {
     {
       name: "Mrs. Geeta Sharma",
       relation: "Parent of Class VIII Student",
-      content: "Mount Literazee School has been instrumental in my child's overall development. The teachers are caring and the environment is very supportive.",
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
       rating: 5,
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=100&h=100&fit=crop&crop=faces"
     },
     {
       name: "Mr. Rakesh Patel",
       relation: "Parent of Class X Student",
-      content: "The school's focus on both academics and extracurricular activities has helped my daughter grow into a confident and well-rounded individual.",
+      content: "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
       rating: 5,
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=100&h=100&fit=crop&crop=faces"
     },
     {
       name: "Mrs. Kavita Singh",
       relation: "Parent of Class V Student",
-      content: "I'm impressed with the individual attention given to each student. The school truly cares about every child's progress and development.",
+      content: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=100&h=100&fit=crop&crop=faces"
     }
