@@ -77,9 +77,10 @@ export function Navigation() {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full bg-primary hover:bg-primary/90">
+                {/* <Button className="w-full bg-primary hover:bg-primary/90">
                   Admission
-                </Button>
+                </Button> */}
+                <EnquiryModal btnTxt=" Admission"/>
                 <Button
                   className="w-full mt-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
                 >
